@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop the Nostra collection.">
+  <title>Collections | Nostra</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><div>FREE SHIPPING ON ORDERS OVER ₹999</div><div class="announcement-center">NOSTRA / THE EVERYDAY EDIT</div><div>FIRST ORDER? <strong>NOSTRA20</strong></div></div>
+  <header class="site-header">
+    <a href="index.html" class="logo">NOSTRA<span>°</span></a>
+    <nav class="desktop-nav"><a href="index.html">Home</a><a href="collections.html" class="active">Collections</a><a href="contact.html">Contact</a></nav>
+    <div class="header-actions"><a href="contact.html" class="shop-link">Need help? <span>↗</span></a><button class="menu-toggle" aria-label="Toggle navigation">☰</button></div>
+  </header>
+
+  <main>
+    <section class="collection-intro">
+      <div class="collection-intro-number">N / 02</div>
+      <div><p class="eyebrow">THE FULL COLLECTION</p><h1>Find something<br><i>that feels like you.</i></h1></div>
+      <p>From relaxed everyday staples to pieces that make an entrance — explore the Nostra edit.</p>
+    </section>
+
+    <section class="shop-area">
+      <div class="shop-controls">
+        <div class="search-box"><span>⌕</span><input type="search" id="searchInput" placeholder="Search by product name..." aria-label="Search products"></div>
+        <div class="product-total" id="resultCount">12 products</div>
+      </div>
+      <div class="filter-area">
+        <div class="filter-title">FILTER BY</div>
+        <div class="filter-buttons" id="filterButtons">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="women">Women</button>
+          <button class="filter-button" data-filter="men">Men</button>
+          <button class="filter-button" data-filter="accessories">Accessories</button>
+          <button class="filter-button" data-filter="kids">Kids</button>
+        </div>
+      </div>
+
+      <div class="products" id="productGrid">
+        <article class="product" data-category="women" data-name="Linen Relaxed Shirt"><div class="product-photo"><span class="product-tag">NEW</span><img src="images/hero-women.jpg" alt="Linen Relaxed Shirt"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>WOMEN</small><h3>Linen Relaxed Shirt</h3></div><strong>₹1,299</strong></div></article>
+        <article class="product" data-category="men" data-name="Classic Oxford Shirt"><div class="product-photo"><span class="product-tag">BESTSELLER</span><img src="images/product-3.jpg" alt="Classic Oxford Shirt"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>MEN</small><h3>Classic Oxford Shirt</h3></div><strong>₹1,499</strong></div></article>
+        <article class="product" data-category="women" data-name="Wide Leg Trousers"><div class="product-photo"><span class="product-tag sale-tag">SALE</span><img src="images/product-4.jpg" alt="Wide Leg Trousers"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>WOMEN</small><h3>Wide Leg Trousers</h3></div><strong>₹1,799</strong></div></article>
+        <article class="product" data-category="men" data-name="Essential Oversized Tee"><div class="product-photo"><img src="images/product-2.jpg" alt="Essential Oversized Tee"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>MEN</small><h3>Essential Oversized Tee</h3></div><strong>₹899</strong></div></article>
+        <article class="product" data-category="accessories" data-name="Structured Leather Tote"><div class="product-photo"><span class="product-tag">NEW</span><img src="images/leather-bag.jpg" alt="Structured Leather Tote"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>ACCESSORIES</small><h3>Structured Leather Tote</h3></div><strong>₹2,199</strong></div></article>
+        <article class="product" data-category="women" data-name="Soft Knit Cardigan"><div class="product-photo"><img src="images/cardigan.jpg" alt="Soft Knit Cardigan"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>WOMEN</small><h3>Soft Knit Cardigan</h3></div><strong>₹1,899</strong></div></article>
+        <article class="product" data-category="kids" data-name="Mini Everyday Hoodie"><div class="product-photo"><span class="product-tag">NEW</span><img src="images/product-6.jpg" alt="Mini Everyday Hoodie"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>KIDS</small><h3>Mini Everyday Hoodie</h3></div><strong>₹799</strong></div></article>
+        <article class="product" data-category="men" data-name="Relaxed Utility Jacket"><div class="product-photo"><span class="product-tag sale-tag">SALE</span><img src="images/product-2.jpg" alt="Relaxed Utility Jacket"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>MEN</small><h3>Relaxed Utility Jacket</h3></div><strong>₹2,499</strong></div></article>
+        <article class="product" data-category="accessories" data-name="Everyday Canvas Cap"><div class="product-photo"><img src="images/product-1.jpg" alt="Everyday Canvas Cap"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>ACCESSORIES</small><h3>Everyday Canvas Cap</h3></div><strong>₹599</strong></div></article>
+        <article class="product" data-category="women" data-name="Satin Evening Dress"><div class="product-photo"><span class="product-tag">NEW</span><img src="images/product-4.jpg" alt="Satin Evening Dress"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>WOMEN</small><h3>Satin Evening Dress</h3></div><strong>₹2,299</strong></div></article>
+        <article class="product" data-category="kids" data-name="Playday Cotton Set"><div class="product-photo"><span class="product-tag sale-tag">SALE</span><img src="images/cardigan.jpg" alt="Playday Cotton Set"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>KIDS</small><h3>Playday Cotton Set</h3></div><strong>₹999</strong></div></article>
+        <article class="product" data-category="accessories" data-name="Minimalist Crossbody Bag"><div class="product-photo"><img src="images/product-6.jpg" alt="Minimalist Crossbody Bag"><button class="wish" aria-label="Wishlist">♡</button></div><div class="product-details"><div><small>ACCESSORIES</small><h3>Minimalist Crossbody Bag</h3></div><strong>₹1,699</strong></div></article>
+      </div>
+      <div class="no-products" id="noResults"><div>⌕</div><h2>Nothing matched.</h2><p>Try another keyword or choose a different category.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer-v2">
+    <div class="footer-brand"><a href="index.html" class="logo">NOSTRA<span>°</span></a><p>Everyday pieces. A little more considered.</p></div>
+    <div class="footer-nav"><div><small>EXPLORE</small><a href="index.html">Home</a><a href="collections.html">Collections</a><a href="contact.html">Contact</a></div><div><small>SOCIAL</small><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">LinkedIn</a></div></div>
+    <div class="footer-last"><span>© 2026 Nostra</span><span>Designed for the everyday.</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
